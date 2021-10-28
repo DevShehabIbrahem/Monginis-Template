@@ -1,0 +1,78 @@
+/* 
+color:#ec008c 
+color: #666;
+
+  */
+/*start Up-bar*/
+.dropdown-menu-one,
+.dropdown-menu-tow {
+  display: none;
+}
+.dropdown-menu-one li a,
+.dropdown-menu-tow li a {
+  text-decoration: none;
+  display: block;
+  padding: 0px 11px;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.dropdown-menu-one li a:hover,
+.dropdown-menu-tow li a:hover {
+  background-color: #ccc;
+  color: #fff;
+  transition: 0.8s ease-in-out;
+}
+a.drop-toggle {
+  text-decoration: none;
+  color: #ec008c;
+  font-size: 13px;
+}
+a.caret-down {
+  color: #ec008c;
+}
+
+.dropdown-menu-one,
+.dropdown-menu-tow {
+  position: absolute;
+  list-style: none;
+  padding: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.nav-tow {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+.navbar-nav a.nav-link {
+  color: #ec008c;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 30px;
+}
+.navbar-toggler-icon {
+  display: flex;
+  color: #ec008c;
+}
+.navbar-toggler-icon i {
+  padding: 3px;
+}
+/*End UP-Bar */

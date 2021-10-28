@@ -1,0 +1,18 @@
+/*start Up-bar*/
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar-nav {
+    display: block;
+    float: right;
+  }
+  .navbar-nav a.nav-link {
+    color: #666 !important;
+  }
+  .navbar-nav a.nav-link:hover {
+    background-color: #ccc;
+    color: #fff !important;
+    transition: 0.8s ease-in-out;
+  }
+}
+
+/*end Up-bar*/
