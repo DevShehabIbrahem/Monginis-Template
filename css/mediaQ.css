@@ -16,3 +16,15 @@
 }
 
 /*end Up-bar*/
+/* start Logo*/
+@media (min-width: 320px) and (max-width: 991px) {
+  .mon-form,
+  .call_us {
+    display: none;
+  }
+  .mini_card a {
+    font-size: 35px !important;
+  }
+}
+
+/* End Logo*/

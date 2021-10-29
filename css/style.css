@@ -76,3 +76,57 @@ a.caret-down {
   padding: 3px;
 }
 /*End UP-Bar */
+
+/* start Logo*/
+.Customized {
+  justify-content: space-between;
+  align-items: center;
+}
+.Mon_logo {
+  padding-top: 37px;
+}
+.Mon_logo .mon-form {
+  border: 1px solid #666;
+  border-radius: 24px;
+  padding: 8px 48px;
+  font-family: fangsong;
+}
+.mon-form .search {
+  border: 0;
+  outline: none;
+}
+.mon-form .mon-select {
+  border: 0;
+  color: #666;
+  border-right: 1px solid #666;
+  border-left: 1px solid #666;
+  outline: none;
+  height: 30px;
+  cursor: pointer;
+}
+.mon-form .search-icon {
+  padding-left: 25px;
+  color: #666;
+  font-size: 20px;
+}
+.call_us {
+  margin-right: 14px;
+  border-right: 1px solid #666;
+  padding-right: 19px;
+  color: #666;
+  font-size: 17px;
+  font-weight: 500;
+}
+.call_us span {
+  display: block;
+}
+.mini_card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.mini_card a {
+  color: #ec008c;
+  font-size: 27px;
+}
+
+/* End Logo*/
