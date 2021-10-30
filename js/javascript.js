@@ -19,6 +19,10 @@ $(document).ready(function () {
   $("span.navbar-toggler-icon").click(function () {
     $(".collapse").slideToggle();
   });
+  $(".booNavigation").css("  background-color", "#f0f");
+  /* start slicknav nav Bar plugin jquery*/
 });
+
+/* end  slicknav  nav Barplugin jquery*/
 
 /*  End slideToggle */

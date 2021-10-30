@@ -1,29 +1,50 @@
 /*start Up-bar*/
-
+@media (min-width: 320px) and (max-width: 1100px) {
+  .booNavigation {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .Mon_logo .mon-form .mon-select {
+    width: 41%;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .navbar-nav {
-    display: block;
-    float: right;
+    border: 1px solid #ccc;
+    background-color: #fff;
   }
   .navbar-nav a.nav-link {
-    color: #666 !important;
+    color: #666;
+    padding: 0 20px;
   }
   .navbar-nav a.nav-link:hover {
     background-color: #ccc;
-    color: #fff !important;
+    color: #fff;
     transition: 0.8s ease-in-out;
+  }
+  .navbar-nav .nav-item {
+    padding: 0;
   }
 }
 
 /*end Up-bar*/
 /* start Logo*/
-@media (min-width: 320px) and (max-width: 991px) {
+@media (max-width: 767px) {
   .mon-form,
   .call_us {
     display: none;
   }
   .mini_card a {
-    font-size: 35px !important;
+    font-size: 35px;
+  }
+  .slicknav_nav {
+    position: absolute;
+    right: 104px;
+    display: flex;
   }
 }
 
