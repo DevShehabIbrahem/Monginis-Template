@@ -5,7 +5,7 @@ color: #666;
   */
 /*start Up-bar*/
 .navbar {
-  z-index: 1000;
+  overflow-x: clip;
 }
 .dropdown-menu-one,
 .dropdown-menu-tow {
