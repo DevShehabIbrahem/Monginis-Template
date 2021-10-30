@@ -1,8 +1,6 @@
 /*start Up-bar*/
 @media (min-width: 320px) and (max-width: 1100px) {
-  .booNavigation {
-    display: none;
-  }
+  .
 }
 @media (max-width: 991px) {
   .Mon_logo .mon-form .mon-select {
@@ -11,12 +9,26 @@
     text-align: center;
     height: 40px;
   }
+  .Mon_logo .mon-form {
+    display: none;
+  }
+  .mon-form,
+  .call_us {
+    display: none;
+  }
+  .booNavigation {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .navbar-nav {
     border: 1px solid #ccc;
     background-color: #fff;
   }
+
   .navbar-nav a.nav-link {
     color: #666;
     padding: 0 20px;
@@ -29,23 +41,21 @@
   .navbar-nav .nav-item {
     padding: 0;
   }
+  .navbar-expand-md .navbar-collapse {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+  }
 }
 
 /*end Up-bar*/
 /* start Logo*/
 @media (max-width: 767px) {
-  .mon-form,
-  .call_us {
-    display: none;
-  }
   .mini_card a {
     font-size: 35px;
   }
-  .slicknav_nav {
-    position: absolute;
-    right: 104px;
-    display: flex;
-  }
+  
+  
 }
 
 /* End Logo*/

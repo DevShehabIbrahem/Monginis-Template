@@ -108,6 +108,7 @@ a.caret-down {
   font-family: fangsong;
   position: relative;
   width: 43%;
+  display: block;
 }
 .mon-form .search {
   border: 0;
@@ -194,6 +195,12 @@ a.caret-down {
 .navbar .collapse {
   position: absolute;
   top: 10px;
+}
+.menu-btn {
+  cursor: pointer;
+  color: #ec008c;
+  font-size: 26px;
+  display: none;
 }
 
 /* end-nav-bar*/
