@@ -18,12 +18,12 @@
 .pushy a {
   display: block;
   color: #b3b3b1;
-  padding: 15px 30px;
+  padding: 15px 2px;
   text-decoration: none;
 }
 
 .pushy a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .pushy ul:first-child {
@@ -145,16 +145,17 @@
 }
 
 .pushy-submenu button {
-  width: 100%;
+  width: 195px;
   color: #b3b3b1;
-  padding: 15px 30px;
+  padding: 15px 8px;
   text-align: left;
   background: transparent;
   border: 0;
+  font-size: 14px;
 }
 
 .pushy-submenu button:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .pushy-submenu > a,
@@ -164,7 +165,7 @@
 
 .pushy-submenu > a::after,
 .pushy-submenu > button::after {
-  content: '';
+  content: "";
   display: block;
   height: 11px;
   width: 8px;

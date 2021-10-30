@@ -32,7 +32,7 @@ color: #666;
 a.drop-toggle {
   text-decoration: none;
   color: #ec008c;
-  font-size: 13px;
+  font-size: 11px;
 }
 a.drop-toggle:hover,
 a.caret-down:hover,
@@ -82,6 +82,8 @@ a.caret-down {
 .navbar-toggler-icon {
   display: flex;
   color: #ec008c;
+  font-size: 18px;
+  font-weight: 500;
 }
 .navbar-toggler-icon i {
   padding: 3px;
