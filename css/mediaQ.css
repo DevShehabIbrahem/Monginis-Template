@@ -1,14 +1,6 @@
-/*start Up-bar*/
-@media (min-width: 320px) and (max-width: 1100px) {
-  .
-}
-@media (max-width: 991px) {
-  .Mon_logo .mon-form .mon-select {
-    width: 41%;
-    font-size: 14px;
-    text-align: center;
-    height: 40px;
-  }
+/* start middle Nav-bar*/
+@media (max-width: 1100px) {
+  /*lo 3aez el toggle tzhar m3 a5tfa2 7aga tanya/// and// a5rk t5fy l7d 1100*/
   .Mon_logo .mon-form {
     display: none;
   }
@@ -23,39 +15,39 @@
     display: block;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
-  .navbar-nav {
-    border: 1px solid #ccc;
-    background-color: #fff;
+@media (min-width: 992px) {
+  .booNavigation li.navItem .custom-nav {
+    right: 16rem;
   }
+}
+/* start middle Nav-bar*/
 
-  .navbar-nav a.nav-link {
-    color: #666;
-    padding: 0 20px;
+@media (max-width: 767px) {
+  .mini_card a {
+    /*Mini card icon*/
+    font-size: 35px;
   }
+  /* start Mobile Links*/
   .navbar-nav a.nav-link:hover {
     background-color: #ccc;
     color: #fff;
     transition: 0.8s ease-in-out;
   }
+  .navbar-nav {
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
   .navbar-nav .nav-item {
     padding: 0;
+  }
+  .navbar-nav a.nav-link {
+    color: #666;
+    padding: 0 20px;
   }
   .navbar-expand-md .navbar-collapse {
     position: absolute;
     right: 0px;
     top: 40px;
   }
+  /* start Mobile Links*/
 }
-
-/*end Up-bar*/
-/* start Logo*/
-@media (max-width: 767px) {
-  .mini_card a {
-    font-size: 35px;
-  }
-  
-  
-}
-
-/* End Logo*/

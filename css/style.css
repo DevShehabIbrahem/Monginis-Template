@@ -3,6 +3,7 @@ color:#ec008c
 color: #666;
 
   */
+
 /*start Up-bar*/
 .navbar {
   overflow-x: clip;
@@ -90,6 +91,7 @@ a.caret-down {
 }
 .navbar-toggler .navbar-toggler-icon {
   display: flex;
+  align-items: center;
 }
 
 /*End UP-Bar */
@@ -127,6 +129,7 @@ a.caret-down {
   position: absolute;
   right: 56px;
   top: 0;
+  text-align: center;
 }
 .mon-form .search-icon {
   padding-left: 25px;
@@ -159,6 +162,7 @@ a.caret-down {
 /* End Logo*/
 
 /* start-nav-bar*/
+
 .slicknav_menu {
   display: none;
 }
@@ -182,7 +186,7 @@ a.caret-down {
 .dropdown .custom-ul {
   border-radius: 0;
 }
-/*nav-bar-shehab*/
+/*nav-bar-moblie*/
 .booNavigation ul.list {
   padding: 7px 17px;
   background-color: #f0f0ed;
@@ -203,6 +207,9 @@ a.caret-down {
   color: #ec008c;
   font-size: 26px;
   display: none;
+}
+.pushy .lead {
+  font-size: 26px;
 }
 
 /* end-nav-bar*/
