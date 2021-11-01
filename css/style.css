@@ -221,20 +221,9 @@ body {
   height: 200000px;
 }
 
-.slider .carousel-item {
-  background-size: cover;
-  background-position: center;
-  height: 94vh;
-}
-.slider .carousel-one {
-  background-image: url(./../image/slide-bg-1.jpg);
-}
-.slider .carousel-tow {
-  background-image: url(./../image/slide-bg-2.jpg);
-}
-
-.slider .carousel-three {
-  background-image: url(./../image/slide-bg-3.jpg);
+.slider .carousel-item img {
+  width: 100%;
+  height: auto;
 }
 
 /****/
@@ -264,4 +253,5 @@ body {
 .btn {
   border: 0 !important;
 }
+
 /*end-Carousel*/
