@@ -224,14 +224,14 @@ body {
   height: 94vh;
 }
 .slider .carousel-one {
-  background-image: url(/image/slide-bg-1.jpg);
+  background-image: url(./../image/slide-bg-1.jpg);
 }
 .slider .carousel-tow {
-  background-image: url(/image/slide-bg-2.jpg);
+  background-image: url(./../image/slide-bg-2.jpg);
 }
 
 .slider .carousel-three {
-  background-image: url(/image/slide-bg-3.jpg);
+  background-image: url(./../image/slide-bg-3.jpg);
 }
 
 /****/
