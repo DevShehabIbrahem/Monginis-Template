@@ -27,6 +27,7 @@
   .mini_card a {
     /*Mini card icon*/
     font-size: 35px;
+    padding: 0 8px;
   }
   /* start Mobile Links*/
   .navbar-nav a.nav-link:hover {

@@ -93,6 +93,9 @@ a.caret-down {
   display: flex;
   align-items: center;
 }
+.navbar .navbar-toggler {
+  padding: 0.25rem 1.75rem;
+}
 
 /*End UP-Bar */
 
