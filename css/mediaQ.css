@@ -52,7 +52,7 @@
   }
   /* start carousel*/
   .slider .carousel-item {
-    height: 47vh;
+    height: 28vh;
   }
   .slider .carousel-item .content-text a {
     font-size: 8px;
