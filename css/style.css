@@ -252,8 +252,10 @@ body {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-.content-text a {
+.content-text a.btn-danger {
   background-color: #ec008c;
+  font-size: 18px;
+  font-style: italic;
 }
 .content-text a:hover {
   opacity: 0.8;
