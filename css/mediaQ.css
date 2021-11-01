@@ -20,6 +20,7 @@
     right: 16rem;
   }
 }
+
 /* start middle Nav-bar*/
 
 @media (max-width: 767px) {
@@ -49,5 +50,14 @@
     right: 0px;
     top: 40px;
   }
+  /* start carousel*/
+  .slider .carousel-item {
+    height: 47vh;
+  }
+  .slider .carousel-item .content-text a {
+    font-size: 8px;
+  }
+  /* end carousel*/
+
   /* start Mobile Links*/
 }

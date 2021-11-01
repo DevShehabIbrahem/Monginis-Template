@@ -213,3 +213,50 @@ a.caret-down {
 }
 
 /* end-nav-bar*/
+/*Start-Carousel*/
+body {
+  height: 200000px;
+}
+
+.slider .carousel-item {
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+}
+.slider .carousel-one {
+  background-image: url(/image/slide-bg-1.jpg);
+}
+.slider .carousel-tow {
+  background-image: url(/image/slide-bg-2.jpg);
+}
+
+.slider .carousel-three {
+  background-image: url(/image/slide-bg-3.jpg);
+}
+
+/****/
+.carousel-indicators li {
+  height: 6px;
+  cursor: pointer;
+}
+
+/**text insid image**/
+.content-text {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 12%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.content-text a {
+  background-color: #ec008c;
+}
+.content-text a:hover {
+  opacity: 0.8;
+  border: 0;
+}
+.btn {
+  border: 0 !important;
+}
+/*end-Carousel*/

@@ -20,7 +20,11 @@ $(document).ready(function () {
     $(".collapse").slideToggle();
   });
   $(".booNavigation").css("  background-color", "#f0f");
-  /* start slicknav nav Bar plugin jquery*/
+  /*Carousel anchor*/
+
+  // change link
+
+  // change images
 });
 
 /* end  slicknav  nav Barplugin jquery*/
