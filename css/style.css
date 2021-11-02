@@ -276,4 +276,9 @@ body {
 .products-cat .section-one > div img {
   width: 100%;
 }
+.products-cat .section-tow > div img:hover,
+.products-cat .section-one > div img:hover {
+  opacity: 0.9;
+  transition: 0.8s ease-in-out;
+}
 /* end products*/
