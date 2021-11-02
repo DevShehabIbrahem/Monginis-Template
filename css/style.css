@@ -255,3 +255,25 @@ body {
 }
 
 /*end-Carousel*/
+
+/* Start products*/
+.products .products-title {
+  margin: 25px 0;
+}
+.products .products-title h3 {
+  text-align: center;
+  color: #ec008c;
+}
+.products .products-title .line img {
+  width: 100%;
+  padding: 0;
+}
+.products-cat .section-tow > div,
+.products-cat .section-one > div {
+  padding-top: 20px;
+}
+.products-cat .section-tow > div img,
+.products-cat .section-one > div img {
+  width: 100%;
+}
+/* end products*/
