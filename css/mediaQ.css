@@ -68,4 +68,9 @@
     display: none;
   }
   /* end products*/
+  /* start popup*/
+  .box-model {
+    width: 100%;
+  }
+  /* end popup*/
 }

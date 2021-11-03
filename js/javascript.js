@@ -22,9 +22,28 @@ $(document).ready(function () {
   $(".booNavigation").css("  background-color", "#f0f");
   /*Carousel anchor*/
 
-  // change link
+  /*box-model*/
 
-  // change images
+  var boxmdel = $(".box-model");
+  boxmdel.hide();
+  $(".quick-view").click(function () {
+    boxmdel.show();
+  });
+  $(".close").click(function () {
+    boxmdel.hide();
+  });
+
+  var addcard = $(".add-card ul li");
+  var veiwbtn = $(".add-card ul li .quick-view ");
+  console.log(veiwbtn);
+  /*box-model*/
+  veiwbtn.css("display", "none");
+  addcard.mouseover(function () {
+    veiwbtn.css("display", "block");
+  });
+  addcard.mouseleave(function () {
+    veiwbtn.css("display", "none");
+  });
 });
 
 /* end  slicknav  nav Barplugin jquery*/
