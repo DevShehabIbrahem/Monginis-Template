@@ -72,5 +72,9 @@
   .box-model {
     width: 100%;
   }
+  .add-card ul {
+    margin: 0 auto;
+  }
+
   /* end popup*/
 }

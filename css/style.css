@@ -292,6 +292,9 @@ body {
 .add-card {
   padding-top: 20px;
 }
+.add-card .box-content {
+  background-color: #fff;
+}
 .add-card .card-info {
   text-align: center;
 }
@@ -301,6 +304,7 @@ body {
 }
 .add-card ul li h4 {
   color: #2b2b2d;
+  padding: 7px 0;
 }
 .add-card ul li a {
   text-decoration: none;
@@ -326,6 +330,71 @@ body {
   right: 0;
   color: #fff;
   padding: 3px 9px;
+}
+
+.btn-card {
+  text-transform: uppercase;
+  border: 0;
+  width: fit-content;
+  margin: 0 auto 60px;
+  font-size: 15px;
+  padding: 7px 20px;
+  font-weight: bold;
+  position: relative;
+  z-index: 0;
+  transition: 0.5s;
+  line-height: 22px;
+  color: #666;
+}
+
+.btn-card::after,
+.btn-card::before {
+  content: "";
+  width: 15px;
+  height: 39px;
+  position: absolute;
+  display: none;
+  top: 53%;
+  width: 40px;
+  transform: translateY(-50%);
+  font: normal normal normal 21px/1 FontAwesome;
+  line-height: 26px;
+  padding: 3px 0px;
+}
+
+.btn-card::before {
+  content: "\f012";
+
+  right: 0px;
+}
+.btn-card::after {
+  content: "\f004";
+
+  left: 0px;
+}
+.btn-card:hover::before {
+  animation: left-one 0.5s linear forwards;
+  z-index: -1;
+  color: green;
+  display: block;
+}
+
+@keyframes left-one {
+  100% {
+    right: -40px;
+  }
+}
+.btn-card:hover::after {
+  animation: right-one 0.5s linear forwards;
+  z-index: -1;
+  color: red;
+
+  display: block;
+}
+@keyframes right-one {
+  100% {
+    left: -40px;
+  }
 }
 
 #rating-stars .stars {
