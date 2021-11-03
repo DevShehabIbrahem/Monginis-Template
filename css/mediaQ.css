@@ -72,8 +72,12 @@
   .box-model {
     width: 100%;
   }
-  .add-card ul {
-    margin: 0 auto;
+  .add-card ul.un-add-card {
+    justify-content: center;
+  }
+  .add-card ul.un-add-card li {
+    max-width: 400px;
+    margin-bottom: 10px;
   }
 
   /* end popup*/

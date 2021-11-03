@@ -257,14 +257,14 @@ body {
 /*end-Carousel*/
 
 /* Start products*/
-.products .products-title {
+.products-title {
   margin: 25px 0;
 }
-.products .products-title h3 {
+.products-title h3 {
   text-align: center;
   color: #ec008c;
 }
-.products .products-title .line img {
+.products-title .line img {
   width: 100%;
   padding: 0;
 }
@@ -301,14 +301,17 @@ body {
 .add-card ul li {
   max-width: 260px;
   background-color: #fff;
+  margin: 0 5px;
+}
+.add-card ul {
+  display: flex;
 }
 .add-card ul li h4 {
   color: #2b2b2d;
   padding: 7px 0;
 }
-.add-card ul li a {
-  text-decoration: none;
-  color: #666;
+.add-card ul li span.card-title {
+  color: #999;
 }
 .add-card ul li:hover {
   box-shadow: 1px 2px 9px 3px #000;
@@ -364,12 +367,10 @@ body {
 
 .btn-card::before {
   content: "\f012";
-
   right: 0px;
 }
 .btn-card::after {
   content: "\f004";
-
   left: 0px;
 }
 .btn-card:hover::before {
@@ -412,6 +413,7 @@ body {
   color: #999;
 }
 /*end add card*/
+
 /* start dec pop*/
 .box-model {
   width: 56%;
