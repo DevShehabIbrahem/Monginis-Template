@@ -305,6 +305,7 @@ body {
 }
 .add-card ul {
   display: flex;
+  flex-wrap: nowrap;
 }
 .add-card ul li h4 {
   color: #2b2b2d;
@@ -333,6 +334,7 @@ body {
   right: 0;
   color: #fff;
   padding: 3px 9px;
+  display: none;
 }
 
 .btn-card {
@@ -415,13 +417,13 @@ body {
 /*end add card*/
 
 /* start dec pop*/
-.box-model {
-  width: 56%;
-  padding: 20px 0;
+#box-model {
+  width: 90%;
+  padding: 11px 44px;
   box-shadow: 0 0 10px #ccc;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  left: 51%;
+  transform: translate(-49%, -14%);
   z-index: 1;
 }
 .box-content h4 {
@@ -449,4 +451,10 @@ body {
 }
 .box-content form select {
   color: #666;
+}
+/*d*/
+.selected {
+  background-color: #1f75cc;
+  color: white;
+  z-index: 100;
 }
