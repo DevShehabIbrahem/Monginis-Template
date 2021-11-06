@@ -448,7 +448,7 @@
 </div>
 <!-- end producs -->
 
-<!-- start add card profucts -->
+<!-- start add card BEST SELLING PRODUCTS -->
 <div class="add-card">
    <div class="container">
     <div class="products-title row">
@@ -474,47 +474,80 @@
                         <header class="text-left">
                             <h3>Photo Cake HD</h3>
                             <div id="rating-stars" align="center" class="text-left">
-                                <div class="stars">
-                                    <label aria-label="first-star" class="star-label" for="rate-one">
-                                        <i class="rate-icon star-icon fa fa-star"> </i>
-                                        </label>
-                                    <input class="rate-input" name="rating" id="rate-one" value="1" type="radio">
-                                    <label aria-label="second-star" class="star-label" for="rate-tow"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-tow" value="2" type="radio">
-                                    <label aria-label="third-star" class="star-label" for="rate-three"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-three" value="3" type="radio">
-                                    <label aria-label="fourth-star" class="star-label" for="rate-four"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-four" value="4" type="radio">
-                                    <label aria-label="fifth-star" class="star-label" for="rate-five">
-                                        <i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-five" value="5" type="radio">
-                                </div>
+                                
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q55" name="rating_q55" value="5" />
+                                    <label class = "full" for="star5_q55" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q55" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q55" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q55" name="rating_q55" value="4" />
+                                    <label class = "full" for="star4_q55" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_q55" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q55" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q55" name="rating_q55" value="3" />
+                                    <label class = "full" for="star3_q55" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q55" name="rating_q55" value="2 and a half" 
+                                    /><label class="half" for="star2half_q55" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q55" name="rating_q55" value="2" />
+                                    <label class = "full" for="star2_q55" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q55" name="rating_q55" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q55" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q55" name="rating_q55" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q55" name="rating_q55" value="half" />
+                                    <label class="half" for="starhalf_q55" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                
                             </div>
                         </header>
                         <p>Photo cake HD is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
                         <h4>EGP260.00</h4>
                         <span class="Avai">Availability: In stock</span>
                         <a  href="#" class="email">Email to a Friend</a>
-                        <form action="./index.html" class="mb-5">
-                            <label>Message on Product </label>
-                            <input type="text"/>
+                        <dl class="mb-5">
+                            <dt><label>Message on Product </label></dt>
+                            <dd>
+                                <div class="input">
+                                    <input type="text"/>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label class="pt-2">size</label>
-                            <select name="" id="chose" aria-placeholder="please-select">
-                                <option value="1" class="title">--plase-select--</option>
-                                <option value="1">30*20</option>
-                                <option value="2">30*30</option>
-                                <option value="3">30*40</option>
-                            </select>
+                            <dt><label class="pt-2"><em>*</em>size</label></dt>
+                            <dd>
+                                <div class="select-box">
+                                    <select name="" id="chose" aria-placeholder="please-select">
+                                        <option value="1" class="title">--plase-select--</option>
+                                        <option value="1">30*20</option>
+                                        <option value="2">30*30</option>
+                                        <option value="3">30*40</option>
+                                    </select>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label>Upload the image</label>
-                           <input type="file">
+                            <dt><label>Upload the image</label></dt>
+
+                           <dd>
+                                <div class="input">
+                                    <input type="file"/>
+                                </div>
+                                
+                            </dd>
                            
-                        </form>
+                        </dl>
                         <button class="btn-card my-5 border border-dark d-block m-auto">
                             add to card
                         </button>
@@ -535,24 +568,38 @@
                 </div>
                 <!-- start rating-stars -->
                <div id="rating-stars" align="center">
-                    <div class="stars">
-                        <label aria-label="first-star" class="star-label" for="rate-1"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-1" value="1" type="radio">
-                        <label aria-label="second-star" class="star-label" for="rate-2"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-2" value="2" type="radio">
-                        <label aria-label="third-star" class="star-label" for="rate-3"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-3" value="3" type="radio">
-                        <label aria-label="fourth-star" class="star-label" for="rate-4"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-4" value="4" type="radio">
-                        <label aria-label="fifth-star" class="star-label" for="rate-5">
-                            <i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-5" value="5" type="radio">
+                <div class="container d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q5" name="rating_q5" value="5" />
+                                    <label class = "full" for="star5_q5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q5" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q5" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q5" name="rating_q5" value="4" />
+                                    <label class = "full" for="star4_q5" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_q5" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q5" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q5" name="rating_q5" value="3" />
+                                    <label class = "full" for="star3_q5" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q5" name="rating_q5" value="2 and a half" 
+                                    /><label class="half" for="star2half_q5" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q5" name="rating_q5" value="2" />
+                                    <label class = "full" for="star2_q5" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q5" name="rating_q5" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q5" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q5" name="rating_q5" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q5" name="rating_q5" value="half" />
+                                    <label class="half" for="starhalf_q5" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
                 <!-- end rating-stars -->
                 <div class="card-info">
@@ -569,10 +616,10 @@
                
                 
             </li>
-            <li >
+            <li>
                 <!-- start Queik view -->
                 <div  id="box-model" class="box-model2">
-                    <button  id="remove2" class="close">x</button>
+                    <button  id="remove3" class="close">x</button>
                     <div class="row">
 
               
@@ -586,47 +633,79 @@
                         <header class="text-left">
                             <h3>Lotus Gateaux</h3>
                             <div id="rating-stars" align="center" class="text-left">
-                                <div class="stars">
-                                    <label aria-label="first-star" class="star-label" for="rate-onee">
-                                        <i class="rate-icon star-icon fa fa-star"> </i>
-                                        </label>
-                                    <input class="rate-input" name="rating" id="rate-onee" value="1" type="radio">
-                                    <label aria-label="second-star" class="star-label" for="rate-toww"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-toww" value="2" type="radio">
-                                    <label aria-label="third-star" class="star-label" for="rate-threee"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-threee" value="3" type="radio">
-                                    <label aria-label="fourth-star" class="star-label" for="rate-fourr"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-fourr" value="4" type="radio">
-                                    <label aria-label="fifth-star" class="star-label" for="rate-fivee">
-                                        <i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-fivee" value="5" type="radio">
-                                </div>
+                                
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_q44" name="rating_q44" value="5" />
+                                                    <label class = "full" for="star5_q44" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_q44" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_q44" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_q44" name="rating_q44" value="4" />
+                                                    <label class = "full" for="star4_q44" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_q44" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_q44" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_q44" name="rating_q44" value="3" />
+                                                    <label class = "full" for="star3_q44" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_q44" name="rating_q44" value="2 and a half" 
+                                                    /><label class="half" for="star2half_q44" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_q44" name="rating_q44" value="2" />
+                                                    <label class = "full" for="star2_q44" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_q44" name="rating_q44" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_q44" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_q44" name="rating_q44" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_q44" name="rating_q44" value="half" />
+                                                    <label class="half" for="starhalf_q44" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
                             </div>
                         </header>
                         <p>Lotus Gateaux is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
                         <h4>EGP17.00</h4>
                         <span class="Avai">Availability: In stock</span>
                         <a  href="#" class="email">Email to a Friend</a>
-                        <form action="./index.html" class="mb-5">
-                            <label>Message on Product </label>
-                            <input type="text"/>
+                        <dl class="mb-5">
+                            <dt><label>Message on Product </label></dt>
+                            <dd>
+                                <div class="input">
+                                    <input type="text"/>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label class="pt-2">size</label>
-                            <select name="" id="chose" aria-placeholder="please-select">
-                                <option value="1" class="title">--plase-select--</option>
-                                <option value="1">30*20</option>
-                                <option value="2">30*30</option>
-                                <option value="3">30*40</option>
-                            </select>
+                            <dt><label class="pt-2"><em>*</em>size</label></dt>
+                            <dd>
+                                <div class="select-box">
+                                    <select name="" id="chose" aria-placeholder="please-select">
+                                        <option value="1" class="title">--plase-select--</option>
+                                        <option value="1">30*20</option>
+                                        <option value="2">30*30</option>
+                                        <option value="3">30*40</option>
+                                    </select>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label>Upload the image</label>
-                           <input type="file">
+                            <dt><label>Upload the image</label></dt>
+
+                           <dd>
+                                <div class="input">
+                                    <input type="file"/>
+                                </div>
+                                
+                            </dd>
                            
-                        </form>
+                        </dl>
                         <button class="btn-card my-5 border border-dark d-block m-auto">
                             add to card
                         </button>
@@ -648,24 +727,39 @@
                 </div>
                 <!-- start rating-stars -->
                <div id="rating-stars" align="center">
-                    <div class="stars">
-                        <label aria-label="first-star" class="star-label" for="rate-55"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-55" value="1" type="radio">
-                        <label aria-label="second-star" class="star-label" for="rate-66"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-66" value="2" type="radio">
-                        <label aria-label="third-star" class="star-label" for="rate-77"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-77" value="3" type="radio">
-                        <label aria-label="fourth-star" class="star-label" for="rate-99"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-99" value="4" type="radio">
-                        <label aria-label="fifth-star" class="star-label" for="rate-100">
-                            <i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-100" value="5" type="radio">
+                <div class="container d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q4" name="rating_q4" value="5" />
+                                    <label class = "full" for="star5_q4" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q4" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q4" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q4" name="rating_q4" value="4" />
+                                    <label class = "full" for="star4_q4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_q4" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q4" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q4" name="rating_q4" value="3" />
+                                    <label class = "full" for="star3_q4" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q4" name="rating_q4" value="2 and a half" 
+                                    /><label class="half" for="star2half_q4" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q4" name="rating_q4" value="2" />
+                                    <label class = "full" for="star2_q4" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q4" name="rating_q4" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q4" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q4" name="rating_q4" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q4" name="rating_q4" value="half" />
+                                    <label class="half" for="starhalf_q4" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
                 <!-- end rating-stars -->
                 <div class="card-info">
@@ -699,47 +793,79 @@
                         <header class="text-left">
                             <h3>Bubbles chocolate</h3>
                             <div id="rating-stars" align="center" class="text-left">
-                                <div class="stars">
-                                    <label aria-label="first-star" class="star-label" for="rate-aaa">
-                                        <i class="rate-icon star-icon fa fa-star"> </i>
-                                        </label>
-                                    <input class="rate-input" name="rating" id="rate-aaa" value="1" type="radio">
-                                    <label aria-label="second-star" class="star-label" for="rate-bbb"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-bbb" value="2" type="radio">
-                                    <label aria-label="third-star" class="star-label" for="rate-ccc"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-ccc" value="3" type="radio">
-                                    <label aria-label="fourth-star" class="star-label" for="rate-ddd"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-ddd" value="4" type="radio">
-                                    <label aria-label="fifth-star" class="star-label" for="rate-eee">
-                                        <i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-eee" value="5" type="radio">
-                                </div>
+                                
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_q33" name="rating_q33" value="5" />
+                                                    <label class = "full" for="star5_q33" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_q33" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_q33" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_q33" name="rating_q33" value="4" />
+                                                    <label class = "full" for="star4_q33" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_q33" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_q33" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_q33" name="rating_q33" value="3" />
+                                                    <label class = "full" for="star3_q33" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_q33" name="rating_q33" value="2 and a half" 
+                                                    /><label class="half" for="star2half_q33" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_q33" name="rating_q33" value="2" />
+                                                    <label class = "full" for="star2_q33" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_q33" name="rating_q33" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_q33" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_q33" name="rating_q33" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_q33" name="rating_q33" value="half" />
+                                                    <label class="half" for="starhalf_q33" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
                             </div>
                         </header>
                         <p>Bubbles chocolate is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
                         <h4>EGP215.00</h4>
                         <span class="Avai">Availability: In stock</span>
                         <a  href="#" class="email">Email to a Friend</a>
-                        <form action="./index.html" class="mb-5">
-                            <label>Message on Product </label>
-                            <input type="text"/>
+                        <dl class="mb-5">
+                            <dt><label>Message on Product </label></dt>
+                            <dd>
+                                <div class="input">
+                                    <input type="text"/>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label class="pt-2">size</label>
-                            <select name="" id="chose" aria-placeholder="please-select">
-                                <option value="1" class="title">--plase-select--</option>
-                                <option value="1">30*20</option>
-                                <option value="2">30*30</option>
-                                <option value="3">30*40</option>
-                            </select>
+                            <dt><label class="pt-2"><em>*</em>size</label></dt>
+                            <dd>
+                                <div class="select-box">
+                                    <select name="" id="chose" aria-placeholder="please-select">
+                                        <option value="1" class="title">--plase-select--</option>
+                                        <option value="1">30*20</option>
+                                        <option value="2">30*30</option>
+                                        <option value="3">30*40</option>
+                                    </select>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label>Upload the image</label>
-                           <input type="file">
+                            <dt><label>Upload the image</label></dt>
+
+                           <dd>
+                                <div class="input">
+                                    <input type="file"/>
+                                </div>
+                                
+                            </dd>
                            
-                        </form>
+                        </dl>
                         <button class="btn-card my-5 border border-dark d-block m-auto">
                             add to card
                         </button>
@@ -760,24 +886,39 @@
                 </div>
                 <!-- start rating-stars -->
                <div id="rating-stars" align="center">
-                    <div class="stars">
-                        <label aria-label="first-star" class="star-label" for="rate-ab"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-ab" value="1" type="radio">
-                        <label aria-label="second-star" class="star-label" for="rate-ac"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-ac" value="2" type="radio">
-                        <label aria-label="third-star" class="star-label" for="rate-af"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-af" value="3" type="radio">
-                        <label aria-label="fourth-star" class="star-label" for="rate-ae"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-ae" value="4" type="radio">
-                        <label aria-label="fifth-star" class="star-label" for="rate-ar">
-                            <i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-ar" value="5" type="radio">
+                <div class="container d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q3" name="rating_q3" value="5" />
+                                    <label class = "full" for="star5_q3" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q3" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q3" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q3" name="rating_q3" value="4" />
+                                    <label class = "full" for="star4_q3" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_q3" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q3" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q3" name="rating_q3" value="3" />
+                                    <label class = "full" for="star3_q3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q3" name="rating_q3" value="2 and a half" 
+                                    /><label class="half" for="star2half_q3" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q3" name="rating_q3" value="2" />
+                                    <label class = "full" for="star2_q3" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q3" name="rating_q3" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q3" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q3" name="rating_q3" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q3" name="rating_q3" value="half" />
+                                    <label class="half" for="starhalf_q3" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
                 <!-- end rating-stars -->
                 <div class="card-info">
@@ -811,47 +952,79 @@
                         <header class="text-left">
                             <h3>Almond cookies</h3>
                             <div id="rating-stars" align="center" class="text-left">
-                                <div class="stars">
-                                    <label aria-label="first-star" class="star-label" for="rate-a">
-                                        <i class="rate-icon star-icon fa fa-star"> </i>
-                                        </label>
-                                    <input class="rate-input" name="rating" id="rate-a" value="1" type="radio">
-                                    <label aria-label="second-star" class="star-label" for="rate-b"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-b" value="2" type="radio">
-                                    <label aria-label="third-star" class="star-label" for="rate-c"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-c" value="3" type="radio">
-                                    <label aria-label="fourth-star" class="star-label" for="rate-d"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-d" value="4" type="radio">
-                                    <label aria-label="fifth-star" class="star-label" for="rate-e">
-                                        <i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-e" value="5" type="radio">
-                                </div>
+                               
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_q22" name="rating_q22" value="5" />
+                                                    <label class = "full" for="star5_q22" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_q22" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_q22" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_q22" name="rating_q22" value="4" />
+                                                    <label class = "full" for="star4_q22" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_q22" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_q22" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_q22" name="rating_q22" value="3" />
+                                                    <label class = "full" for="star3_q22" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_q22" name="rating_q22" value="2 and a half" 
+                                                    /><label class="half" for="star2half_q22" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_q22" name="rating_q22" value="2" />
+                                                    <label class = "full" for="star2_q22" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_q22" name="rating_q22" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_q22" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_q22" name="rating_q22" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_q22" name="rating_q22" value="half" />
+                                                    <label class="half" for="starhalf_q22" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
                             </div>
                         </header>
                         <p>Almond cookies is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
                         <h4>EGP40.00</h4>
                         <span class="Avai">Availability: In stock</span>
                         <a  href="#" class="email">Email to a Friend</a>
-                        <form action="./index.html" class="mb-5">
-                            <label>Message on Product </label>
-                            <input type="text"/>
+                        <dl class="mb-5">
+                            <dt><label>Message on Product </label></dt>
+                            <dd>
+                                <div class="input">
+                                    <input type="text"/>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label class="pt-2">size</label>
-                            <select name="" id="chose" aria-placeholder="please-select">
-                                <option value="1" class="title">--plase-select--</option>
-                                <option value="1">30*20</option>
-                                <option value="2">30*30</option>
-                                <option value="3">30*40</option>
-                            </select>
+                            <dt><label class="pt-2"><em>*</em>size</label></dt>
+                            <dd>
+                                <div class="select-box">
+                                    <select name="" id="chose" aria-placeholder="please-select">
+                                        <option value="1" class="title">--plase-select--</option>
+                                        <option value="1">30*20</option>
+                                        <option value="2">30*30</option>
+                                        <option value="3">30*40</option>
+                                    </select>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label>Upload the image</label>
-                           <input type="file">
+                            <dt><label>Upload the image</label></dt>
+
+                           <dd>
+                                <div class="input">
+                                    <input type="file"/>
+                                </div>
+                                
+                            </dd>
                            
-                        </form>
+                        </dl>
                         <button class="btn-card my-5 border border-dark d-block m-auto">
                             add to card
                         </button>
@@ -872,24 +1045,40 @@
                 </div>
                 <!-- start rating-stars -->
                <div id="rating-stars" align="center">
-                    <div class="stars">
-                        <label aria-label="first-star" class="star-label" for="rate-aa"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-aa" value="1" type="radio">
-                        <label aria-label="second-star" class="star-label" for="rate-bb"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-bb" value="2" type="radio">
-                        <label aria-label="third-star" class="star-label" for="rate-cc"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-cc" value="3" type="radio">
-                        <label aria-label="fourth-star" class="star-label" for="rate-dd"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-dd" value="4" type="radio">
-                        <label aria-label="fifth-star" class="star-label" for="rate-ee">
-                            <i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-ee" value="5" type="radio">
+                <div class="container d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q2" name="rating_q2" value="5" />
+                                    <label class = "full" for="star5_q2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q2" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q2" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q2" name="rating_q2" value="4" />
+                                    <label class = "full" for="star4_q2" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_q2" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q2" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q2" name="rating_q2" value="3" />
+                                    <label class = "full" for="star3_q2" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q2" name="rating_q2" value="2 and a half" 
+                                    /><label class="half" for="star2half_q2" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q2" name="rating_q2" value="2" />
+                                    <label class = "full" for="star2_q2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q2" name="rating_q2" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q2" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q2" name="rating_q2" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q2" name="rating_q2" value="half" />
+                                    <label class="half" for="starhalf_q2" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
                 <!-- end rating-stars -->
                 <div class="card-info">
@@ -923,47 +1112,80 @@
                         <header class="text-left">
                             <h3>White chocolate Box</h3>
                             <div id="rating-stars" align="center" class="text-left">
-                                <div class="stars">
-                                    <label aria-label="first-star" class="star-label" for="rate-111">
-                                        <i class="rate-icon star-icon fa fa-star"> </i>
-                                        </label>
-                                    <input class="rate-input" name="rating" id="rate-111" value="1" type="radio">
-                                    <label aria-label="second-star" class="star-label" for="rate-222"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-222" value="2" type="radio">
-                                    <label aria-label="third-star" class="star-label" for="rate-333"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-333" value="3" type="radio">
-                                    <label aria-label="fourth-star" class="star-label" for="rate-444"><i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-444" value="4" type="radio">
-                                    <label aria-label="fifth-star" class="star-label" for="rate-555">
-                                        <i
-                                            class="rate-icon star-icon fa fa-star"></i></label>
-                                    <input class="rate-input" name="rating" id="rate-555" value="5" type="radio">
-                                </div>
+                                
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="stars">
+                                                <fieldset class="rating">
+    <input type="radio" id="star5_qq" name="rating_qq" value="5" />
+    <label class = "full" for="star5_qq" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half_qq" name="rating_qq" value="4 and a half" /   >
+ 
+    <label class="half" for="star4half_qq" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4_qq" name="rating_qq" value="4" />
+    <label class = "full" for="star4_qq" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half_qq" name="rating_qq" value="3 and a hal
+    f" /><label class="half" for="star3half_qq" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3_qq" name="rating_qq" value="3" />
+    <label class = "full" for="star3_qq" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half_qq" name="rating_qq" value="2 and a half" 
+    /><label class="half" for="star2half_qq" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2_qq" name="rating_qq" value="2" />
+    <label class = "full" for="star2_qq" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half_qq" name="rating_qq" value="1 and a hal f" />
+   
+    <label class="half" for="star1half_qq" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1_qq" name="rating_qq" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+      
+    </label>
+    <input type="radio" id="starhalf_qq" name="rating_qq" value="half" />
+    <label class="half" for="starhalf_qq" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                
                             </div>
                         </header>
                         <p>White chocolate Box is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
                         <h4>EGP120.00</h4>
                         <span class="Avai">Availability: In stock</span>
                         <a  href="#" class="email">Email to a Friend</a>
-                        <form action="./index.html" class="mb-5">
-                            <label>Message on Product </label>
-                            <input type="text"/>
+                        <dl class="mb-5">
+                            <dt><label>Message on Product </label></dt>
+                            <dd>
+                                <div class="input">
+                                    <input type="text"/>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label class="pt-2">size</label>
-                            <select name="" id="chose" aria-placeholder="please-select">
-                                <option value="1" class="title">--plase-select--</option>
-                                <option value="1">30*20</option>
-                                <option value="2">30*30</option>
-                                <option value="3">30*40</option>
-                            </select>
+                            <dt><label class="pt-2"><em>*</em>size</label></dt>
+                            <dd>
+                                <div class="select-box">
+                                    <select name="" id="chose" aria-placeholder="please-select">
+                                        <option value="1" class="title">--plase-select--</option>
+                                        <option value="1">30*20</option>
+                                        <option value="2">30*30</option>
+                                        <option value="3">30*40</option>
+                                    </select>
+                                </div>
+                                
+                            </dd>
+                            
                         
-                            <label>Upload the image</label>
-                           <input type="file">
+                            <dt><label>Upload the image</label></dt>
+
+                           <dd>
+                                <div class="input">
+                                    <input type="file"/>
+                                </div>
+                                
+                            </dd>
                            
-                        </form>
+                        </dl>
                         <button class="btn-card my-5 border border-dark d-block m-auto">
                             add to card
                         </button>
@@ -984,24 +1206,40 @@
                 </div>
                 <!-- start rating-stars -->
                <div id="rating-stars" align="center">
-                    <div class="stars">
-                        <label aria-label="first-star" class="star-label" for="rate-11"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-11" value="1" type="radio">
-                        <label aria-label="second-star" class="star-label" for="rate-22"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-22" value="2" type="radio">
-                        <label aria-label="third-star" class="star-label" for="rate-33"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-33" value="3" type="radio">
-                        <label aria-label="fourth-star" class="star-label" for="rate-44"><i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-44" value="4" type="radio">
-                        <label aria-label="fifth-star" class="star-label" for="rate-55">
-                            <i
-                                class="rate-icon star-icon fa fa-star"></i></label>
-                        <input class="rate-input" name="rating" id="rate-55 " value="5" type="radio">
+                <div class="container d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_q" name="rating_q" value="5" />
+                                    <label class = "full" for="star5_q" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_q" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_q" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_q" name="rating_q" value="4" />
+                                    <label class = "full" for="star4_q" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_q" name="rating_q" value="3 and a hal
+                                    f" /><label class="half" for="star3half_q" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_q" name="rating_q" value="3" />
+                                    <label class = "full" for="star3_q" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_q" name="rating_q" value="2 and a half" 
+                                    /><label class="half" for="star2half_q" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_q" name="rating_q" value="2" />
+                                    <label class = "full" for="star2_q" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_q" name="rating_q" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_q" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_q" name="rating_q" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_q" name="rating_q" value="half" />
+                                    <label class="half" for="starhalf_q" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
                 <!-- end rating-stars -->
                 <div class="card-info">
@@ -1023,11 +1261,1771 @@
    </div>
 </div>
 
+<!-- end add card BEST SELLING PRODUCTS -->
+
+<!-- start add card MOST VIEWED PRODUCTS-->
+<div class="add-card">
+    <div class="container">
+     <div class="products-title row">
+         <h3 class="col col-lg-4">MOST VIEWED PRODUCTS</h3>
+          <div class="line col col-lg-8" ><img src="./image/line.png" alt=""></div>       
+           </div>
+        
+         <ul class="un-add-card row">
+             <li>
+                 <!-- start Queik view -->
+                 <div id="box-model" class="box-model-a" >
+                     <button  id="removea" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/MOST VIEWED/m1.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div   class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Photo Cake HD</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                     
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e11" name="rating_e11" value="5" />
+                                    <label class = "full" for="star5_e11" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e11" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e11" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e11" name="rating_e11" value="4" />
+                                    <label class = "full" for="star4_e11" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e11" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e11" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e11" name="rating_e11" value="3" />
+                                    <label class = "full" for="star3_e11" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e11" name="rating_e11" value="2 and a half" 
+                                    /><label class="half" for="star2half_e11" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e11" name="rating_e11" value="2" />
+                                    <label class = "full" for="star2_e11" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e11" name="rating_e11" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e11" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e11" name="rating_e11" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e11" name="rating_e11" value="half" />
+                                    <label class="half" for="starhalf_e11" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 
+                             </div>
+                         </header>
+                         <p>Photo cake HD is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP260.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img ">
+                     <button id="click-a" class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/MOST VIEWED/m1.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e1" name="rating_e1" value="5" />
+                                    <label class = "full" for="star5_e1" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e1" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e1" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e1" name="rating_e1" value="4" />
+                                    <label class = "full" for="star4_e1" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e1" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e1" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e1" name="rating_e1" value="3" />
+                                    <label class = "full" for="star3_e1" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e1" name="rating_e1" value="2 and a half" 
+                                    /><label class="half" for="star2half_e1" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e1" name="rating_e1" value="2" />
+                                    <label class = "full" for="star2_e1" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e1" name="rating_e1" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e1" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e1" name="rating_e1" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e1" name="rating_e1" value="half" />
+                                    <label class="half" for="starhalf_e1" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                     Photo Cake HD
+                     </span>
+                     <h4>EGP260.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-b">
+                     <button  id="removeb" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/MOST VIEWED/m2.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Lotus Gateaux</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_e22" name="rating_e22" value="5" />
+                                                    <label class = "full" for="star5_e22" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_e22" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_e22" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_e22" name="rating_e22" value="4" />
+                                                    <label class = "full" for="star4_e22" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_e22" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_e22" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_e22" name="rating_e22" value="3" />
+                                                    <label class = "full" for="star3_e22" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_e22" name="rating_e22" value="2 and a half" 
+                                                    /><label class="half" for="star2half_e22" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_e22" name="rating_e22" value="2" />
+                                                    <label class = "full" for="star2_e22" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_e22" name="rating_e22" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_e22" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_e22" name="rating_e22" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_e22" name="rating_e22" value="half" />
+                                                    <label class="half" for="starhalf_e22" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Lotus Gateaux is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP17.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img ">
+                     <button id="clickb"
+                      class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/MOST VIEWED/m2.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e2" name="rating_e2" value="5" />
+                                    <label class = "full" for="star5_e2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e2" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e2" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e2" name="rating_e2" value="4" />
+                                    <label class = "full" for="star4_e2" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e2" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e2" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e2" name="rating_e2" value="3" />
+                                    <label class = "full" for="star3_e2" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e2" name="rating_e2" value="2 and a half" 
+                                    /><label class="half" for="star2half_e2" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e2" name="rating_e2" value="2" />
+                                    <label class = "full" for="star2_e2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e2" name="rating_e2" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e2" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e2" name="rating_e2" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e2" name="rating_e2" value="half" />
+                                    <label class="half" for="starhalf_e2" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Lotus Gateaux
+                     </span>
+                     <h4>EGP17.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-c">
+                     <button id="removec" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/MOST VIEWED/m3.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Bubbles chocolate</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_e33" name="rating_e33" value="5" />
+                                                    <label class = "full" for="star5_e33" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_e33" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_e33" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_e33" name="rating_e33" value="4" />
+                                                    <label class = "full" for="star4_e33" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_e33" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_e33" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_e33" name="rating_e33" value="3" />
+                                                    <label class = "full" for="star3_e33" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_e33" name="rating_e33" value="2 and a half" 
+                                                    /><label class="half" for="star2half_e33" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_e33" name="rating_e33" value="2" />
+                                                    <label class = "full" for="star2_e33" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_e33" name="rating_e33" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_e33" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_e33" name="rating_e33" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_e33" name="rating_e33" value="half" />
+                                                    <label class="half" for="starhalf_e33" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Bubbles chocolate is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP215.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img ">
+                     <button  id="clickc"  class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/MOST VIEWED/m3.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e3" name="rating_e3" value="5" />
+                                    <label class = "full" for="star5_e3" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e3" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e3" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e3" name="rating_e3" value="4" />
+                                    <label class = "full" for="star4_e3" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e3" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e3" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e3" name="rating_e3" value="3" />
+                                    <label class = "full" for="star3_e3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e3" name="rating_e3" value="2 and a half" 
+                                    /><label class="half" for="star2half_e3" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e3" name="rating_e3" value="2" />
+                                    <label class = "full" for="star2_e3" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e3" name="rating_e3" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e3" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e3" name="rating_e3" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e3" name="rating_e3" value="half" />
+                                    <label class="half" for="starhalf_e3" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Bubbles chocolate
+                     </span>
+                     <h4>EGP215.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div id="box-model" class="box-model-d ">
+                     <button id="removed" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6 ">
+                         <a href="#"> <img src="./image/MOST VIEWED/m4.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Almond cookies</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_e44" name="rating_e44" value="5" />
+                                                    <label class = "full" for="star5_e44" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_e44" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_e44" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_e44" name="rating_e44" value="4" />
+                                                    <label class = "full" for="star4_e44" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_e44" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_e44" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_e44" name="rating_e44" value="3" />
+                                                    <label class = "full" for="star3_e44" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_e44" name="rating_e44" value="2 and a half" 
+                                                    /><label class="half" for="star2half_e44" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_e44" name="rating_e44" value="2" />
+                                                    <label class = "full" for="star2_e44" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_e44" name="rating_e44" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_e44" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_e44" name="rating_e44" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_e44" name="rating_e44" value="half" />
+                                                    <label class="half" for="starhalf_e44" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Almond cookies is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP40.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img">
+                     <button id="clickd"  class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/MOST VIEWED/m4.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e4" name="rating_e4" value="5" />
+                                    <label class = "full" for="star5_e4" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e4" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e4" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e4" name="rating_e4" value="4" />
+                                    <label class = "full" for="star4_e4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e4" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e4" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e4" name="rating_e4" value="3" />
+                                    <label class = "full" for="star3_e4" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e4" name="rating_e4" value="2 and a half" 
+                                    /><label class="half" for="star2half_e4" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e4" name="rating_e4" value="2" />
+                                    <label class = "full" for="star2_e4" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e4" name="rating_e4" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e4" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e4" name="rating_e4" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e4" name="rating_e4" value="half" />
+                                    <label class="half" for="starhalf_e4" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Almond cookies 
+                     </span>
+                     <h4>EGP40.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-e" >
+                     <button id="removee" class="close" >x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="../image/MOST VIEWED/m5.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg ">
+                         <header class="text-left">
+                             <h3>White chocolate Box</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                 <<fieldset class="rating">
+                                                    <input type="radio" id="star5_e55" name="rating_e55" value="5" />
+                                                    <label class = "full" for="star5_e55" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_e55" name="rating_q" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_e55" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_e55" name="rating_e55" value="4" />
+                                                    <label class = "full" for="star4_e55" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="2" name="rating_e55" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_e55" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_e55" name="rating_e55" value="3" />
+                                                    <label class = "full" for="star3_e55" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_e55" name="rating_e55" value="2 and a half" 
+                                                    /><label class="half" for="star2half_e55" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_e55" name="rating_e55" value="2" />
+                                                    <label class = "full" for="star2_e55" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_e55" name="rating_e55" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_e55" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_e55" name="rating_e55" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_e55" name="rating_e55" value="half" />
+                                                    <label class="half" for="starhalf_e55" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>White chocolate Box is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP120.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img">
+                     <button  id="clicke" class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/MOST VIEWED/m5.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_e5" name="rating_e5" value="5" />
+                                    <label class = "full" for="star5_e5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_e5" name="rating_q" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_e5" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_e5" name="rating_e5" value="4" />
+                                    <label class = "full" for="star4_e5" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="2" name="rating_e5" value="3 and a hal
+                                    f" /><label class="half" for="star3half_e5" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_e5" name="rating_e5" value="3" />
+                                    <label class = "full" for="star3_e5" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_e5" name="rating_e5" value="2 and a half" 
+                                    /><label class="half" for="star2half_e5" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_e5" name="rating_e5" value="2" />
+                                    <label class = "full" for="star2_e5" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_e5" name="rating_e5" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_e5" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_e5" name="rating_e5" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_e5" name="rating_e5" value="half" />
+                                    <label class="half" for="starhalf_e5" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         White chocolate Box
+                     </span>
+                     <h4>EGP120.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+         </ul>
+       
+    </div>
+ </div>
+
+<!-- end add card MOST VIEWED PRODUCTS -->
+<!-- start add card LATEST PRODUCTS -->
+<div class="add-card">
+    <div class="container">
+     <div class="products-title row">
+         <h3 class="col col-lg-4">LATEST PRODUCTS</h3>
+          <div class="line col col-lg-8" ><img src="./image/line.png" alt=""></div>       
+           </div>
+        
+         <ul class="un-add-card row">
+             <li>
+                 <!-- start Queik view -->
+                 <div id="box-model" class="box-model-a1" >
+                     <button  id="remove-a1" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/LATEST PRODUCTS/l1.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div   class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Photo Cake HD</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                     
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_5" name="rating_5" value="5" /><label class = "full" for="star5_2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_5" name="rating_5" value="4 and a half" />
+                                    <label class="half" for="star4half_5" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_5" name="rating_5" value="4" />
+                                    <label class = "full" for="star4_5" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_5" name="rating_5" value="3 and a half" />
+                                    <label class="half" for="star3half_5" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_5" name="rating_5" value="3" />
+                                    <label class = "full" for="star3_5" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_5" name="rating_5" value="2 and a half" />
+                                    <label class="half" for="star2half_5" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_5" name="rating_5" value="2" />
+                                    <label class = "full" for="star2_5" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_5" name="rating_5" value="1 and a half" />
+                                    <label class="half" for="star1half_5" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_5" name="rating_5" value="1" />
+                                    <label class = "full" for="star1_5" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf_5" name="rating_5" value="half" />
+                                    <label class="half" for="starhalf_5" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                
+                             </div>
+                         </div>
+                     </div>
+                 
+                             </div>
+                         </header>
+                         <p>Photo cake HD is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP260.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img ">
+                     <button id="click-a1" class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/LATEST PRODUCTS/l1.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_55" name="rating_55" value="5" /><label class = "full" for="star5_2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_55" name="rating_55" value="4 and a half" />
+                                    <label class="half" for="star4half_55" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_55" name="rating_55" value="4" />
+                                    <label class = "full" for="star4_55" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_55" name="rating_55" value="3 and a half" />
+                                    <label class="half" for="star3half_55" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_55" name="rating_5" value="3" />
+                                    <label class = "full" for="star3_55" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_55" name="rating_55" value="2 and a half" />
+                                    <label class="half" for="star2half_55" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_55" name="rating_55" value="2" />
+                                    <label class = "full" for="star2_55" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_55" name="rating_55" value="1 and a half" />
+                                    <label class="half" for="star1half_55" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_55" name="rating_55" value="1" />
+                                    <label class = "full" for="star1_55" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf_55" name="rating_55" value="half" />
+                                    <label class="half" for="starhalf_55" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                     Photo Cake HD
+                     </span>
+                     <h4>EGP260.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-a2">
+                     <button  id="remove-a2" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/LATEST PRODUCTS/l2.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Lotus Gateaux</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_4" name="rating_4" value="5" /><label class = "full" for="star5_2" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_4" name="rating_4" value="4 and a half" />
+                                                    <label class="half" for="star4half_4" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_4" name="rating_4" value="4" />
+                                                    <label class = "full" for="star4_4" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3half_4" name="rating_4" value="3 and a half" />
+                                                    <label class="half" for="star3half_4" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_4" name="rating_4" value="3" />
+                                                    <label class = "full" for="star3_4" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_4" name="rating_4" value="2 and a half" />
+                                                    <label class="half" for="star2half_4" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_4" name="rating_4" value="2" />
+                                                    <label class = "full" for="star2_4" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_4" name="rating_4" value="1 and a half" />
+                                                    <label class="half" for="star1half_4" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_4" name="rating_4" value="1" />
+                                                    <label class = "full" for="star1_4" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhalf_4" name="rating_4" value="half" />
+                                                    <label class="half" for="starhalf_4" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Lotus Gateaux is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP17.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img">
+                     <button id="click-a2"
+                      class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/LATEST PRODUCTS/l2.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_44" name="rating_44" value="5" /><label class = "full" for="star5_2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_44" name="rating_44" value="4 and a half" />
+                                    <label class="half" for="star4half_44" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_4" name="rating_44" value="4" />
+                                    <label class = "full" for="star4_44" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_44" name="rating_44" value="3 and a half" />
+                                    <label class="half" for="star3half_44" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_44" name="rating_44" value="3" />
+                                    <label class = "full" for="star3_44" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_44" name="rating_44" value="2 and a half" />
+                                    <label class="half" for="star2half_44" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_44" name="rating_44" value="2" />
+                                    <label class = "full" for="star2_44" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_44" name="rating_44" value="1 and a half" />
+                                    <label class="half" for="star1half_44" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_44" name="rating_44" value="1" />
+                                    <label class = "full" for="star1_44" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf_44" name="rating_44" value="half" />
+                                    <label class="half" for="starhalf_44" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Lotus Gateaux
+                     </span>
+                     <h4>EGP17.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-a3">
+                     <button id="remove-a3" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/LATEST PRODUCTS/l3.png" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Bubbles chocolate</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_33" name="rating_33" value="5" />
+                                                    <label class = "full" for="star5_33" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_33" name="rating_33" value="4 and a half" />
+                                                    <label class="half" for="star4half_33" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_33" name="rating_33" value="4" />
+                                                    <label class = "full" for="star4_33" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3half_33" name="rating_33" value="3 and a half" />
+                                                    <label class="half" for="star3half_33" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_33" name="rating_33" value="3" />
+                                                    <label class = "full" for="star3_33" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_33" name="rating_33" value="2 and a half" />
+                                                    <label class="half" for="star2half_33" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_33" name="rating_33" value="2" />
+                                                    <label class = "full" for="star2_33" title="Kinda bad - 2 stars">
+                                                
+                                                    </label>
+                                                    <input type="radio" id="star1half_3" name="rating_3" value="1 and a half" />
+                                                    <label class="half" for="star1half_2" title="Meh - 1.5 stars">
+                                                
+                                                    </label>
+                                                    <input type="radio" id="star1_3" name="rating_3" value="1" />
+                                                    <label class = "full" for="star1_2" title="Sucks big time - 1 star">
+                                                
+                                                    </label>
+                                                    <input type="radio" id="starhalf_3" name="rating_3" value="half" />
+                                                    <label class="half" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Bubbles chocolate is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP215.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img ">
+                     <button  id="click-a3"  class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/LATEST PRODUCTS/l3.png" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_3" name="rating_3" value="5" />
+                                    <label class = "full" for="star5_3" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_3" name="rating_3" value="4 and a half" />
+                                    <label class="half" for="star4half_3" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_3" name="rating_3" value="4" />
+                                    <label class = "full" for="star4_3" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_3" name="rating_3" value="3 and a half" />
+                                    <label class="half" for="star3half_3" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_3" name="rating_3" value="3" />
+                                    <label class = "full" for="star3_3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_3" name="rating_3" value="2 and a half" />
+                                    <label class="half" for="star2half_3" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_3" name="rating_3" value="2" />
+                                    <label class = "full" for="star2_3" title="Kinda bad - 2 stars">
+                                
+                                    </label>
+                                    <input type="radio" id="star1half_3" name="rating_3" value="1 and a half" />
+                                    <label class="half" for="star1half_2" title="Meh - 1.5 stars">
+                                
+                                    </label>
+                                    <input type="radio" id="star1_3" name="rating_3" value="1" />
+                                    <label class = "full" for="star1_2" title="Sucks big time - 1 star">
+                                
+                                    </label>
+                                    <input type="radio" id="starhalf_3" name="rating_3" value="half" />
+                                    <label class="half" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Bubbles chocolate
+                     </span>
+                     <h4>EGP215.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div id="box-model" class="box-model-a4 ">
+                     <button id="remove-a4" class="close">x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6 ">
+                         <a href="#"> <img src="./image/LATEST PRODUCTS/l4.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg">
+                         <header class="text-left">
+                             <h3>Almond cookies</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_11" name="rating_11" value="5" />
+                                                    <label class = "full" for="star5_11" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_11" name="rating_11" value="4 and a half" /   >
+                                                 
+                                                    <label class="half" for="star4half_11" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_11" name="rating_1" value="4" />
+                                                    <label class = "full" for="star4_11" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3half_11" name="rating_11" value="3 and a hal
+                                                    f" /><label class="half" for="star3half_1" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_11" name="rating_11" value="3" />
+                                                    <label class = "full" for="star3_11" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_11" name="rating_11" value="2 and a half" 
+                                                    /><label class="half" for="star2half_11" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_11" name="rating_11" value="2" />
+                                                    <label class = "full" for="star2_11" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_11" name="rating_11" value="1 and a hal f" />
+                                                   
+                                                    <label class="half" for="star1half_11" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_11" name="rating_11" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                                      
+                                                    </label>
+                                                    <input type="radio" id="starhalf_11" name="rating_11" value="half" />
+                                                    <label class="half" for="starhalf_11" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>Almond cookies is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP40.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img">
+                     <button id="click-a4"  class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/LATEST PRODUCTS/l4.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_1" name="rating_1" value="5" />
+                                    <label class = "full" for="star5_1" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_1" name="rating_1" value="4 and a half" /   >
+                                 
+                                    <label class="half" for="star4half_1" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_1" name="rating_1" value="4" />
+                                    <label class = "full" for="star4_1" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_1" name="rating_1" value="3 and a hal
+                                    f" /><label class="half" for="star3half_1" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_1" name="rating_1" value="3" />
+                                    <label class = "full" for="star3_1" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_1" name="rating_1" value="2 and a half" 
+                                    /><label class="half" for="star2half_1" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_1" name="rating_1" value="2" />
+                                    <label class = "full" for="star2_1" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_1" name="rating_1" value="1 and a hal f" />
+                                   
+                                    <label class="half" for="star1half_1" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_1" name="rating_1" value="1" /><label class = "full" for="star1_1" title="Sucks big time - 1 star">
+                                      
+                                    </label>
+                                    <input type="radio" id="starhalf_1" name="rating_1" value="half" />
+                                    <label class="half" for="starhalf_1" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         Almond cookies 
+                     </span>
+                     <h4>EGP40.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+             <li>
+                 <!-- start Queik view -->
+                 <div  id="box-model" class="box-model-a5" >
+                     <button id="remove-a5" class="close" >x</button>
+                     <div class="row">
+ 
+               
+                     <div class="img col-lg-6">
+                         <a href="#"> <img src="./image/LATEST PRODUCTS/l5.jpg" alt=""></a>
+                     </div>
+                     <!-- end Queik view -->
+ 
+                     <!-- start content --> 
+                     <div class="box-content col-lg ">
+                         <header class="text-left">
+                             <h3>White chocolate Box</h3>
+                             <div id="rating-stars" align="center" class="text-left">
+                                 
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="stars">
+                                                <fieldset class="rating">
+                                                    <input type="radio" id="star5_21" name="rating_21" value="5" />
+                                                    <label class = "full" for="star5_21" title="Awesome - 5 stars"></label>
+                                                    <input type="radio" id="star4half_21" name="rating_21" value="4 and a half" />
+                                                    <label class="half" for="star4half_21" title="Pretty good - 4.5 stars"></label>
+                                                    <input type="radio" id="star4_21" name="rating_21" value="4" />
+                                                    <label class = "full" for="star4_21" title="Pretty good - 4 stars"></label>
+                                                    <input type="radio" id="star3half_21" name="rating_21" value="3 and a half" />
+                                                    <label class="half" for="star3half_21" title="Meh - 3.5 stars"></label>
+                                                    <input type="radio" id="star3_21" name="rating_21" value="3" />
+                                                    <label class = "full" for="star3_21" title="Meh - 3 stars"></label>
+                                                    <input type="radio" id="star2half_21" name="rating_21" value="2 and a half" />
+                                                    <label class="half" for="star2half_21" title="Kinda bad - 2.5 stars"></label>
+                                                    <input type="radio" id="star2_21" name="rating_21" value="2" />
+                                                    <label class = "full" for="star2_21" title="Kinda bad - 2 stars"></label>
+                                                    <input type="radio" id="star1half_21" name="rating_21" value="1 and a half" />
+                                                    <label class="half" for="star1half_21" title="Meh - 1.5 stars"></label>
+                                                    <input type="radio" id="star1_21" name="rating_21" value="1" />
+                                                    <label class = "full" for="star1_21" title="Sucks big time - 1 star"></label>
+                                                    <input type="radio" id="starhalf_21" name="rating_21" value="half" />
+                                                    <label class="half" for="starhalf_21" title="Sucks big time - 0.5 stars"></label>
+                                                </fieldset>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 
+                             </div>
+                         </header>
+                         <p>White chocolate Box is a special cake with a photo on it to celebrate your memories and celebrations and from inside you can choose the taste you like even chocolate, vanilla or half chocolate and the other is vanilla.</p>
+                         <h4>EGP120.00</h4>
+                         <span class="Avai">Availability: In stock</span>
+                         <a  href="#" class="email">Email to a Friend</a>
+                         <dl class="mb-5">
+                             <dt><label>Message on Product </label></dt>
+                             <dd>
+                                 <div class="input">
+                                     <input type="text"/>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label class="pt-2"><em>*</em>size</label></dt>
+                             <dd>
+                                 <div class="select-box">
+                                     <select name="" id="chose" aria-placeholder="please-select">
+                                         <option value="1" class="title">--plase-select--</option>
+                                         <option value="1">30*20</option>
+                                         <option value="2">30*30</option>
+                                         <option value="3">30*40</option>
+                                     </select>
+                                 </div>
+                                 
+                             </dd>
+                             
+                         
+                             <dt><label>Upload the image</label></dt>
+ 
+                            <dd>
+                                 <div class="input">
+                                     <input type="file"/>
+                                 </div>
+                                 
+                             </dd>
+                            
+                         </dl>
+                         <button class="btn-card my-5 border border-dark d-block m-auto">
+                             add to card
+                         </button>
+                     </div> 
+                 </div>
+                   
+                   <!-- end content --> 
+                
+                
+                 </div>
+                 <div class="img">
+                     <button  id="click-a5" class="quick-view">quick-view</button>
+                     <a href="#">
+                         
+                         <img src="./image/LATEST PRODUCTS/l5.jpg" alt="">
+ 
+                     </a>
+                 </div>
+                 <!-- start rating-stars -->
+                <div id="rating-stars" align="center">
+                 <div class="container d-flex justify-content-center ">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="stars">
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5_2" name="rating_2" value="5" />
+                                    <label class = "full" for="star5_2" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half_2" name="rating_2" value="4 and a half" />
+                                    <label class="half" for="star4half_2" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4_2" name="rating_2" value="4" />
+                                    <label class = "full" for="star4_2" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half_2" name="rating_2" value="3 and a half" />
+                                    <label class="half" for="star3half_2" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3_2" name="rating_2" value="3" />
+                                    <label class = "full" for="star3_2" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half_2" name="rating_2" value="2 and a half" />
+                                    <label class="half" for="star2half_2" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2_2" name="rating_2" value="2" />
+                                    <label class = "full" for="star2_2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half_2" name="rating_2" value="1 and a half" />
+                                    <label class="half" for="star1half_2" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1_2" name="rating_2" value="1" />
+                                    <label class = "full" for="star1_2" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf_2" name="rating_2" value="half" />
+                                    <label class="half" for="starhalf_2" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 </div>
+                 <!-- end rating-stars -->
+                 <div class="card-info">
+                     <span class="card-title">
+                         White chocolate Box
+                     </span>
+                     <h4>EGP120.00</h4>
+                     <button class="btn-card">
+                         add to card
+                     </button>
+                 </div>
+                
+                    
+                
+                 
+             </li>
+         </ul>
+       
+    </div>
+ </div>
+<!-- end add card LATEST PRODUCTS-->
 
 
+<!-- Footer -->
+<footer class="page-footer font-small indigo mt-5 wow  animate__animated animate__fadeInUp" >
 
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left " >
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+           
+            <div class="footer-info ">
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CONTACT INFORMATION
 
-<!-- ss -->
+                </h5>
+               
+                <dl class="mon-data">
+                    
+                    <dd>
+                       
+                        <span class="infom"> address: </span>
+                    </dd>
+                    <dt>
+                       <span> 4 El Princess st, Kobri al Balah.Abu Rawwash, Giza, Egypt</span>
+    
+                    </dt>
+                    <dd>
+                        <span class="infom"> Phone: </span>
+                    </dd>
+                    <dt>
+                        <span class="infom"> +0219521 </span>
+                    </dt>
+                    <dd>
+                        <span class="infom"> Email: </span>
+                    </dd>
+                    <dt>
+                        <span class="infom"> monginis@monginisbakery.com </span>
+                    </dt>
+                </dl>
+           
+           
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto ">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Quick Links
+          </h5>
+  
+          <ul class="list-unstyled ">
+            <li class="quick">
+              <a href="#!"> About us <i class="fa fa-angle-right "></i> </a>
+  
+            </li>
+            <li class="quick">
+              <a href="#!"> Corporate Gifting <i class="fa fa-angle-right"></i></a>
+  
+            </li>
+            <li class="quick">
+              <a href="#!"> Cake studies <i class="fa fa-angle-right"></i> </a>
+  
+            </li>
+            <li class="quick">
+              <a href="#!"> Contact us <i class="fa fa-angle-right"> </i> </a>
+  
+            </li>
+            <li class="quick">
+              <a href="#!"> Monginis India <i class="fa fa-angle-right"> </i> </a>
+   
+            </li>
+            <li class="quick">
+           <a href="#!"> Advanced search <i class="fa fa-angle-right"></i></a>
+            </li>
+            <li class="quick">
+          <a href="#!">Login <i class="fa fa-angle-right"> </i></a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">LEGAL INFO
+
+          </h5>
+  
+          <ul class="list-unstyled last-info">
+            <li>
+                <em class="icon-mon"></em>
+              <a href="#">
+                Disclaimer
+              </a>
+            </li>
+            <li>
+                <em class="icon-mon"></em>
+                <a href="#">
+                    Terms & Conditions
+                </a>
+            
+            </li>
+            
+            <li>
+                <em class="icon-mon"></em>
+                <a href="#">
+                    Privacy Policy
+                </a>
+            </li>
+            
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+  
+          <!-- Links -->
+         
+              
+             
+            </form>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+        © Monginis Egypt. 2021. All Rights Reserved
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+<!-- Footer -->
 
 
   <!-- Links -->

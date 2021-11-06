@@ -217,9 +217,6 @@ a.caret-down {
 
 /* end-nav-bar*/
 /*Start-Carousel*/
-body {
-  height: 200000px;
-}
 
 .slider .carousel-item img {
   width: 100%;
@@ -298,15 +295,15 @@ body {
 .add-card .card-info {
   text-align: center;
 }
-.add-card ul li {
-  max-width: 260px;
-  background-color: #fff;
-  margin: 0 5px;
-}
 .add-card ul {
-  display: flex;
-  flex-wrap: nowrap;
+  margin: 0 auto;
 }
+.add-card ul li {
+  max-width: 233px;
+  background-color: #fff;
+  margin: 10px 22px;
+}
+
 .add-card ul li h4 {
   color: #2b2b2d;
   padding: 7px 0;
@@ -402,6 +399,7 @@ body {
 
 #rating-stars .stars {
   display: inline-flex;
+  margin: 0 auto;
 }
 #rating-stars .stars .star-icon {
   color: orange;
@@ -441,9 +439,6 @@ body {
   font-weight: 600;
 }
 .box-content form {
-  padding-top: 62px;
-  display: flex;
-  flex-direction: column;
 }
 .box-content form input:not([type="file"]),
 .box-content form select {
@@ -453,8 +448,83 @@ body {
   color: #666;
 }
 /*d*/
-.selected {
-  background-color: #1f75cc;
-  color: white;
-  z-index: 100;
+div.stars {
+  display: inline-block;
 }
+
+/*rating star*/
+.rating {
+  border: none;
+  float: left;
+}
+
+.rating > input {
+  display: none;
+}
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+  float: right;
+  cursor: pointer;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+      .rating:not(:checked) > label:hover, /* hover current star */
+       .rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+/*        hover previous stars in list */
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+/* footer */
+.footer-info {
+  margin-top: 1rem;
+}
+.footer-info .mon-data > dd {
+  font-size: 18px;
+}
+.footer-info .mon-data > dt > span {
+  margin-bottom: 9px;
+  font-size: 14px;
+  display: block;
+}
+footer {
+  color: #fff;
+  background-color: #272723;
+}
+.list-unstyled li.quick {
+  margin-bottom: 13px;
+}
+.list-unstyled li.quick a {
+  color: #fff;
+}
+em.icon-mon::before {
+  position: absolute;
+  content: "\f00c";
+  font-family: FontAwesome;
+  color: #e41d74;
+}
+footer .last-info a {
+  padding-left: 22px;
+  color: #fff;
+}
+/* footer */
