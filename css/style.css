@@ -5,6 +5,9 @@ color: #666;
   */
 
 /*scrol */
+body {
+  background-color: #fff !important;
+}
 .scrol {
   position: fixed;
   bottom: 10px;
@@ -277,6 +280,7 @@ a.caret-down {
 .products-title h3 {
   text-align: center;
   color: #ec008c;
+  font-size: 25px;
 }
 .products-title .line img {
   width: 100%;
@@ -320,6 +324,10 @@ a.caret-down {
   background-color: #fff;
   margin: 10px 22px;
 }
+.add-card dd .input input,
+.add-card dd select {
+  width: 100%;
+}
 
 .add-card ul li h4 {
   color: #2b2b2d;
@@ -355,7 +363,6 @@ a.caret-down {
   text-transform: uppercase;
   border: 0;
   width: fit-content;
-  margin: 0 auto 60px;
   font-size: 15px;
   padding: 7px 20px;
   font-weight: bold;
@@ -434,7 +441,6 @@ a.caret-down {
 /* start dec pop*/
 #box-model {
   width: 90%;
-  padding: 11px 44px;
   box-shadow: 0 0 10px #ccc;
   position: absolute;
   left: 51%;
@@ -455,8 +461,7 @@ a.caret-down {
   color: #e91d76;
   font-weight: 600;
 }
-.box-content form {
-}
+
 .box-content form input:not([type="file"]),
 .box-content form select {
   border: 1px solid #000;
@@ -473,6 +478,7 @@ div.stars {
 .rating {
   border: none;
   float: left;
+  height: 30px;
 }
 
 .rating > input {
@@ -495,6 +501,7 @@ div.stars {
   color: #ddd;
   float: right;
   cursor: pointer;
+  font-size: 14px;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
@@ -544,4 +551,8 @@ footer .last-info a {
   padding-left: 22px;
   color: #fff;
 }
+footer.page-footer {
+  margin-top: 13rem !important;
+}
+
 /* footer */
