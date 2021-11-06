@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  /* Dropdown -one*/
+  /* Dropdown-one*/
 
   $(".dropdown-one").on("mouseover", function () {
     $(".dropdown-menu-one").slideDown(200);
@@ -25,6 +25,7 @@ $(document).ready(function () {
   /*box-model*/
 
   //apper && disapper boxmodel
+
   /***** quick-view button ******/
   var btn1 = $("#click1");
   var btn2 = $("#click2");
@@ -204,9 +205,7 @@ $(document).ready(function () {
   $("ul li .img ").mouseleave(function () {
     $(".quick-view", this).css("display", "none");
   });
-  // $("#rating-form").on("change", '[name="rating"]', function () {
-  //   $("#selected-rating").text($('[name="rating"]:checked').val());
-  // });
+
   /*scrool*/
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {
@@ -218,7 +217,7 @@ $(document).ready(function () {
       {
         scrollTop: 0,
       },
-      800
+      1000
     );
   });
 });
