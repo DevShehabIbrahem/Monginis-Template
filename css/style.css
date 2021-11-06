@@ -4,6 +4,23 @@ color: #666;
 
   */
 
+/*scrol */
+.scrol {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: slateblue;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  display: none;
+  z-index: 100;
+}
+.scrol i {
+  color: #ec008c;
+}
 /*start Up-bar*/
 .navbar {
   overflow-x: clip;

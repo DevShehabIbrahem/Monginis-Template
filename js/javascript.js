@@ -207,6 +207,20 @@ $(document).ready(function () {
   // $("#rating-form").on("change", '[name="rating"]', function () {
   //   $("#selected-rating").text($('[name="rating"]:checked').val());
   // });
+  /*scrool*/
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 200) {
+      $(".scrol").show();
+    } else $(".scrol").hide();
+  });
+  $(".scrol").click(function () {
+    $("body,html").animate(
+      {
+        scrollTop: 0,
+      },
+      800
+    );
+  });
 });
 //apper && disapper  quick-view
 
