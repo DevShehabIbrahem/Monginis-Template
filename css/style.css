@@ -295,14 +295,16 @@ a.caret-down {
 .products-cat .section-one > div {
   padding-top: 20px;
 }
+
 .products-cat .section-tow > div img,
 .products-cat .section-one > div img {
+  transition: 0.8s ease-in-out;
+
   width: 100%;
 }
 .products-cat .section-tow > div img:hover,
 .products-cat .section-one > div img:hover {
   opacity: 0.9;
-  transition: 0.8s ease-in-out;
 }
 /* end products*/
 
@@ -323,6 +325,9 @@ a.caret-down {
   max-width: 233px;
   background-color: #fff;
   margin: 10px 22px;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
 }
 .add-card dd .input input,
 .add-card dd select {
@@ -357,68 +362,8 @@ a.caret-down {
   color: #fff;
   padding: 3px 9px;
   display: none;
-}
-
-.btn-card {
-  text-transform: uppercase;
-  border: 0;
-  width: fit-content;
-  font-size: 15px;
-  padding: 7px 20px;
-  font-weight: bold;
-  position: relative;
-  z-index: 0;
-  transition: 0.5s;
-  line-height: 22px;
-  color: #666;
-}
-
-.btn-card::after,
-.btn-card::before {
-  content: "";
-  width: 15px;
-  height: 39px;
-  position: absolute;
-  display: none;
-  top: 53%;
-  width: 40px;
-  transform: translateY(-50%);
-  font: normal normal normal 21px/1 FontAwesome;
-  line-height: 26px;
-  padding: 3px 0px;
-}
-
-.btn-card::before {
-  content: "\f012";
-  right: 0px;
-}
-.btn-card::after {
-  content: "\f004";
-  left: 0px;
-}
-.btn-card:hover::before {
-  animation: left-one 0.5s linear forwards;
-  z-index: -1;
-  color: green;
-  display: block;
-}
-
-@keyframes left-one {
-  100% {
-    right: -40px;
-  }
-}
-.btn-card:hover::after {
-  animation: right-one 0.5s linear forwards;
-  z-index: -1;
-  color: red;
-
-  display: block;
-}
-@keyframes right-one {
-  100% {
-    left: -40px;
-  }
+  font-family: emoji;
+  font-weight: 800;
 }
 
 #rating-stars .stars {
@@ -438,41 +383,123 @@ a.caret-down {
 }
 /*end add card*/
 
-/* start dec pop*/
-#box-model {
-  width: 90%;
-  box-shadow: 0 0 10px #ccc;
+/* start  popup bodal */
+.modal-box {
+  display: none;
   position: absolute;
-  left: 51%;
-  transform: translate(-49%, -14%);
-  z-index: 1;
+  z-index: 1000;
+  width: 50%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  transform: translate(-47%, -20%);
+  right: 0;
+  padding: 0 7px;
 }
-.box-content h4 {
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 1000vh;
+  z-index: 900;
+
+  background: rgba(0, 0, 0, 80%) !important;
+}
+.un-add-card li a {
+  text-decoration: none;
+  color: #ddd;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.modal-box .img img {
+  width: 100%;
+  padding: 2px 6px 3px 13px;
+}
+.js-modal-close {
+  padding: 7px 9px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 11px;
+  margin: 3px 6px;
+  cursor: pointer;
+  color: #c75267 !important;
+}
+.btn-card {
+  margin: 0 auto;
+  border: 0;
+  padding: 4px 13px;
+  text-transform: capitalize;
+  background: #2de74f;
+  color: #fff;
+  font-size: 19px;
+  margin-bottom: 6px;
+  position: relative;
+}
+.modal-body h4 {
   font-size: 21px;
   font-weight: 700;
   color: #0087cb;
 }
-.box-content span.Avai {
+
+.modal-body span.Avai {
   color: #666;
   display: block;
   padding-bottom: 13px;
 }
-.box-content a.email {
+.modal-body a.email {
   color: #e91d76;
   font-weight: 600;
 }
 
-.box-content form input:not([type="file"]),
-.box-content form select {
+.modal-body form input:not([type="file"]),
+.modal-body form select {
   border: 1px solid #000;
 }
-.box-content form select {
+.modal-body form select {
   color: #666;
 }
-/*d*/
-div.stars {
-  display: inline-block;
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1.25em 1.5em;
+  border-bottom: 1px solid #ddd;
 }
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 {
+  margin: 0;
+}
+
+.modal-box .modal-body {
+  padding: 2em 1.5em;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 1.5em;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  text-decoration: none;
+  color: #bbb;
+}
+
+a.close:hover {
+  color: #222;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+/* end  popup bodal */
 
 /*rating star*/
 .rating {
