@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="/css/awesomeRating.min.css"/>
     
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/component.css">
+    <script src="/js/modernizr.custom.js"></script>
+    
     <title>monginis</title>
 </head>
-<body>
+<body class="cbp-spmenu-push">
 
 <!--Start Up-Bar-->
 
@@ -108,7 +112,7 @@
                     <a href="#" class="search-icon"><i class="fa fa-search"></i>
                     </a>
                 </form>
-                <div class="menu-btn col-auto ml-auto ">&#9776;</div> <!--Button Toggle-->
+                <div class="menu-btn col-auto ml-auto " id="showLeft">&#9776;</div> <!--Button Toggle-->
             <!-- End Search section-->
 
                 <!-- Start mini_card_icon-->
@@ -294,10 +298,10 @@
 
 
   <!-- Start Mobile Nav --> 
-  <nav class="pushy pushy-left ">
+  <nav  class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1" >
       
     <ul>
-      <li class="text-center"><a href="#" class="lead">HOME</a></li>
+        <h3>Home</h3>
       <li class="pushy-submenu">
         <button class="main-title">PRODUCT <i class="fa fa-plus-square-o"></i></button>
         <ul>
@@ -309,52 +313,20 @@
                    <li class="pushy-link"><a href="#">3D CAKES</a></li> 
                    <li class="pushy-link"><a href="#">REGULAR</a></li> 
                 </ul>
+               
             </li>
-            
-        
-        <li><a href="#">CHOCOLATE</a></li>
-        <li class="pushy-submenu">
-            <button class="main-title">ORIENTAL SWEETS <i class="fa fa-plus-square-o"></i></button>
-            <ul>
-                <li class="pushy-link"><a href="#">GATEAUX</a></li> 
-                <li class="pushy-link"><a href="#">SPECIAL GIFTS</a></li> 
-             </ul>
-        </li>
-        
+            <a href="#">HOME</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">Snakes</a>
+            <a href="#">Cakes</a>
+            <a href="#">HD CAKES</a>
+            <a href="#">REGULAR</a>
+    
       </li>
-      <!-- ss -->
-      <li class="pushy-submenu">
-        <button class="main-title">Occasions <i class="fa fa-plus-square-o"></i>
-        </button>
-        <ul>
-            <li class="pushy-link"><a href="#">MOULED-AL-NABAWY</a></li> 
-            <li class="pushy-link"><a href="#">BIRTHDAY</a></li> 
-            <li class="pushy-link"><a href="#">CHRISTMAS</a></li> 
-            <li class="pushy-link"><a href="#">VALENTINE DAY</a></li> 
-            <li class="pushy-link"><a href="#">METHOER'S DAY</a></li> 
-            <li class="pushy-link"><a href="#">EID ADHA</a></li> 
-            <li class="pushy-link"><a href="#">Anniversary</a></li> 
-            <li class="pushy-link"><a href="#">NEWLY BORN</a></li> 
-            <li class="pushy-link"><a href="#">WEDDING</a></li> 
-            <li class="pushy-link"><a href="#">CONGRATULATIONS</a></li> 
-            <li class="pushy-link"><a href="#">MANGO CAKES</a></li> 
-         </ul>
-    </li>
-    <li class="pushy-link"><a href="#">Stores</a></li> 
-    <li class="pushy-link"><a href="#">Internship</a></li>
-      <li class="pushy-submenu">
-        <button class="main-title">Mongiland <i class="fa fa-plus-square-o"></i></button>
-        <ul>
-            <li class="pushy-link"><a href="#">BROUP BOKKING</a></li> 
-            <li class="pushy-link"><a href="#">INDIVIDUALS</a></li>  
-         </ul>
-    </li>
-    <li class="pushy-link"><a href="#">EXPORT</a></li> 
-    <li class="pushy-link"><a href="#">Contact US</a></li> 
-
-    </ul>
+   
 </ul>
   </nav>
+  
  <!-- End Mobile Nav -->
  
 <!-- Start-carousel -->
@@ -1920,42 +1892,36 @@
   
 
   <script src="js/jquery-3.6.0.min.js"></script>
-
+  <!-- nav mobile menu -->
+  <script src="js/pushy.min.js"></script>
+  <script src="js/classie.js"></script>
+  <!-- nav mobile menu -->
   <script src="./js/javascript.js"></script>
+  <script src="./js/es6.js"></script>
 
-
+<!-- slide menu -->
   <script src="js/booNavigation.js"></script>
+  <!-- slide menu -->
   <script src="js/awesomeRating.min.js"></script>
  
-
-
-  <!-- Scripts - here -->
-  <script type="text/javascript">
-     
+  <script type="text/javascript"> 
      $('.awesomeRating').awesomeRating();
-
-
-
-
   </script>
 
-  
   <!-- Nav-Bar -->
-  
     <script type="text/javascript">
         (function () {
     $("#booNavigation").booNavigation({
-      slideSpeed: 600,
-      fadeSpeed: 200,
+      slideSpeed: 500,
+      fadeSpeed:400,
       delay: 500,
     });
   })();
  
       </script>   
 
-       <!-- Nav-Bar -->
          <!-- Scripts - here -->
-   <script src="js/pushy.min.js"></script>
+   
 
    
 <script src="js/wow.min.js"></script>

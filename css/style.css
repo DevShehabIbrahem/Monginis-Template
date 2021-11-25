@@ -1,4 +1,4 @@
-/* 
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Lato:ital,wght@1,300;1,900&family=Raleway:wght@800&family=Roboto+Slab:wght@300&family=Shippori+Antique&display=swap"); /*  
 color:#ec008c 
 color: #666;
 
@@ -7,6 +7,8 @@ color: #666;
 /*scrol */
 body {
   background-color: #fff !important;
+  font-family: "Roboto Slab", serif !important;
+  font-weight: 600 !important;
 }
 .scrol {
   position: fixed;

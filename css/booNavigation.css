@@ -12,13 +12,6 @@
   padding: 0;
 }
 
-body {
-  font-family: "Maven Pro", sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
-  color: #333;
-}
-
 .wrapper {
   margin: 50px auto;
   width: 960px;
